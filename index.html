@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio 2025 - Delícias da Nãna</title>
+    <!-- Tailwind CSS: Uma framework CSS para estilização rápida -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Importando as fontes Montserrat e Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <!-- Font Awesome: Biblioteca de ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        /* Estilos personalizados para definir as fontes principais */
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .title-font {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body class="bg-pink-50 text-gray-800">
+
+    <div class="container mx-auto p-4 sm:p-8 max-w-4xl">
+
+        <!-- Cabeçalho: Título e informações do local -->
+        <header class="text-center mb-10">
+            <h1 class="title-font text-4xl sm:text-5xl font-bold text-pink-800">Delícias da Nãna</h1>
+            <p class="text-gray-600 mt-2">Cardápio 2025</p>
+            <p class="text-sm text-gray-500 mt-1">JOSÉ DE CARVALHO, Nº34 - JERÔNIMO MONTEIRO - ES</p>
+        </header>
+
+        <!-- Seção de Recheios -->
+        <section id="recheios" class="mb-10 bg-white p-6 rounded-2xl shadow-lg">
+            <h2 class="text-2xl font-bold text-center mb-6 border-b-2 border-pink-200 pb-2 text-pink-700">Opções de Recheios</h2>
+            <!-- Grid para listar os recheios de forma organizada -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-x-6 gap-y-3 text-gray-700">
+                <span><i class="fa-solid fa-cake-candles text-pink-400 mr-2"></i>Doce de Leite</span>
+                <span><i class="fa-solid fa-cake-candles text-pink-400 mr-2"></i>Doce de Leite c/ Ameixa</span>
+                <span><i class="fa-solid fa-cake-candles text-pink-400 mr-2"></i>Ninho com Óreo</span>
+                <span><i class="fa-solid fa-cake-candles text-pink-400 mr-2"></i>Abacaxi com Ninho</span>
+                <span><i class="fa-solid fa-cake-candles text-pink-400 mr-2"></i>Abacaxi com Coco</span>
+                <span><i class="fa-solid fa-cake-candles text-pink-400 mr-2"></i>Cajuzinho</span>
+                <span><i class="fa-solid fa-cake-candles text-pink-400 mr-2"></i>Morango</span>
+                <span><i class="fa-solid fa-cake-candles text-pink-400 mr-2"></i>Bombom</span>
+                <span><i class="fa-solid fa-cake-candles text-pink-400 mr-2"></i>Beijinho</span>
+                <span><i class="fa-solid fa-cake-candles text-pink-400 mr-2"></i>4 Leites</span>
+                <span><i class="fa-solid fa-cake-candles text-pink-400 mr-2"></i>Brigadeiro 50% Cacau</span>
+                <span><i class="fa-solid fa-cake-candles text-pink-400 mr-2"></i>Brigadeiro de Paçoca</span>
+                <span><i class="fa-solid fa-cake-candles text-pink-400 mr-2"></i>Brigadeiro Meio Amargo</span>
+                <span><i class="fa-solid fa-cake-candles text-pink-400 mr-2"></i>Brigadeiro de Ovomaltine</span>
+                <span class="col-span-2 sm:col-span-1"><i class="fa-solid fa-cake-candles text-pink-400 mr-2"></i>Nozes <em class="text-sm">(consultar)</em></span>
+            </div>
+        </section>
+
+        <!-- Seção de Bolos e Valores -->
+        <section id="bolos">
+            <h2 class="text-2xl font-bold text-center mb-6 text-pink-700">Tamanhos Disponíveis</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                <!-- Card: Bolo Redondo -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+                    <h3 class="font-bold text-xl mb-4 text-pink-600">Bolos Redondos</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex justify-between border-b border-dashed pb-1"><span>20 Pessoas</span><span class="font-semibold">Consultar Valores</span></li>
+                        <li class="flex justify-between border-b border-dashed pb-1"><span>30 Pessoas</span><span class="font-semibold">Consultar Valores</span></li>
+                        <li class="flex justify-between border-b border-dashed pb-1"><span>45 Pessoas</span><span class="font-semibold">Consultar Valores</span></li>
+                        <li class="flex justify-between"><span>60 Pessoas</span><span class="font-semibold">Consultar Valores</span></li>
+                    </ul>
+                </div>
+
+                <!-- Card: Bolo Quadrado -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+                    <h3 class="font-bold text-xl mb-4 text-pink-600">Bolos Quadrados</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex justify-between border-b border-dashed pb-1"><span>20 Pessoas</span><span class="font-semibold">Consultar Valores</span></li>
+                        <li class="flex justify-between border-b border-dashed pb-1"><span>35 Pessoas</span><span class="font-semibold">Consultar Valores</span></li>
+                        <li class="flex justify-between border-b border-dashed pb-1"><span>50 Pessoas</span><span class="font-semibold">Consultar Valores</span></li>
+                        <li class="flex justify-between"><span>125 Fatias</span><span class="font-semibold">Consultar Valores</span></li>
+                    </ul>
+                </div>
+
+                <!-- Card: Bolo Especial -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+                    <h3 class="font-bold text-xl mb-4 text-pink-600">Bolos com Ganache, Brigadeiros e Frutas</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex justify-between border-b border-dashed pb-1"><span>20 Pessoas</span><span class="font-semibold">Consultar Valores</span></li>
+                        <li class="flex justify-between border-b border-dashed pb-1"><span>30 Pessoas</span><span class="font-semibold">Consultar Valores</span></li>
+                        <li class="flex justify-between border-b border-dashed pb-1"><span>45 Pessoas</span><span class="font-semibold">Consultar Valores</span></li>
+                        <li class="flex justify-between"><span>60 Pessoas</span><span class="font-semibold">Consultar Valores</span></li>
+                    </ul>
+                </div>
+
+                <!-- Card: Bolo KitKat -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+                    <h3 class="font-bold text-xl mb-4 text-pink-600">Bolos KitKat</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex justify-between border-b border-dashed pb-1"><span>20 Pessoas</span><span class="font-semibold">Consultar Valores</span></li>
+                        <li class="flex justify-between border-b border-dashed pb-1"><span>30 Pessoas</span><span class="font-semibold">Consultar Valores</span></li>
+                        <li class="flex justify-between"><span>45 Pessoas</span><span class="font-semibold">Consultar Valores</span></li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Seção de Informações Adicionais -->
+        <section id="informacoes" class="mt-10">
+            <h2 class="text-2xl font-bold text-center mb-6 text-pink-700">Informações Importantes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                <!-- Coluna da Esquerda: Pagamento e Adicionais -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg space-y-4">
+                    <div class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4 rounded-md" role="alert">
+                        <p class="font-bold">Trabalhamos somente com encomendas.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg mb-2 text-pink-600">Formas de Pagamento</h3>
+                        <p><i class="fa-solid fa-mobile-screen text-green-500 mr-2"></i>PIX (Telefone): 28999385217</p>
+                        <p><i class="fa-brands fa-paypal text-blue-500 mr-2"></i>PicPay: @ELAINE.LIRIO1</p>
+                        <p><i class="fa-solid fa-money-bill-wave text-green-600 mr-2"></i>Dinheiro</p>
+                    </div>
+                     <div>
+                        <h3 class="font-bold text-lg mb-2 text-pink-600">Adicionais</h3>
+                        <p><i class="fa-solid fa-star text-yellow-500 mr-2"></i>Topo de Bolo: R$ 20,00</p>
+                        <p><i class="fa-solid fa-truck text-blue-500 mr-2"></i>Fazemos entregas (consultar valores)</p>
+                    </div>
+                </div>
+
+                <!-- Coluna da Direita: Horários -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="font-bold text-lg mb-4 text-center text-pink-600">
+                        <i class="fa-regular fa-clock mr-2"></i>
+                        Horário de Atendimento
+                    </h3>
+                    <ul class="space-y-2 text-gray-600 text-center">
+                       <li class="border-b pb-2">
+                            <span class="font-semibold">Segunda à Sexta:</span><br>
+                            <span>08:00h às 19:00h</span>
+                       </li>
+                       <li class="border-b pb-2">
+                           <span class="font-semibold">Sábado:</span><br>
+                           <span>08:00h às 17:00h</span>
+                       </li>
+                       <li>
+                           <span class="font-semibold">Domingos e Feriados:</span><br>
+                           <span>08:00h às 12:00h</span>
+                       </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rodapé: Contatos e redes sociais -->
+        <footer class="text-center mt-12 py-6 border-t-2 border-pink-200">
+            <p class="font-bold text-lg text-pink-800 mb-4">Faça sua encomenda!</p>
+            <div class="flex justify-center items-center space-x-6">
+                <a href="https://instagram.com/elaineliriojm" target="_blank" class="text-pink-600 hover:text-pink-800 transition-colors">
+                    <i class="fa-brands fa-instagram text-3xl"></i>
+                    <span class="sr-only">Instagram</span>
+                </a>
+                <a href="https://wa.me/5528999385217" target="_blank" class="text-green-500 hover:text-green-700 transition-colors">
+                    <i class="fa-brands fa-whatsapp text-3xl"></i>
+                    <span class="sr-only">WhatsApp</span>
+                </a>
+                <a href="https://www.facebook.com/elaine.lirio.39" class="text-blue-600 hover:text-blue-800 transition-colors">
+                     <i class="fa-brands fa-facebook text-3xl"></i>
+                     <span class="sr-only">Facebook</span>
+                </a>
+            </div>
+             <p class="text-xs text-gray-400 mt-6">Cardápio criado com ❤️</p>
+             <p class="text-xs text-gray-400 mt-6">Desenvolvido por Uedson de Oliveira<a href="https://wa.me/5528999237495" target="_blank" class="text-green-500 hover:text-green-700 transition-colors">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i>
+                    <span class="sr-only">WhatsApp</span>
+                </a></p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
+
